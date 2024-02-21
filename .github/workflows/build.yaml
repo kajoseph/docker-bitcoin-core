@@ -98,7 +98,7 @@ jobs:
 
           echo ::set-output name=build_date::$(date -u +'%Y-%m-%dT%H:%M:%SZ')
           echo ::set-output name=docker_platforms::${PLATFORMS}
-          echo ::set-output name=docker_username::ruimarinho
+          echo ::set-output name=docker_username::kajoseph
           echo ::set-output name=push::${PUSH}
           echo ::set-output name=tags::${TAGS[@]}
           echo ::set-output name=build::true
